@@ -3,3 +3,4 @@
 - [yt - ib_insync playlist](https://www.youtube.com/watch?v=_AASJZyNcXQ&list=PLCZZtBmmgxn8CFKysCkcl-B1tqRgCCNIX)
 - [github - ib_insync](https://github.com/erdewit/ib_insync)
 - [github - ib-api-reloaded/ib_async](https://github.com/ib-api-reloaded/ib_async)
+- [github - icli: IBKR live trade cli](https://github.com/mattsta/icli)

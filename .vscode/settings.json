@@ -1,9 +1,13 @@
 {
     "cSpell.words": [
+        "asyncio",
+        "eventkit",
         "IBKR",
         "icli",
         "insync",
         "ipynb",
+        "numpy",
+        "setuptools",
         "venv"
     ]
 }
