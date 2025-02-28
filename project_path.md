@@ -44,3 +44,6 @@ touch async_hello_world.ipynb
 ## follow the vid
 
 ### [icli: IBKR live trade cli](https://github.com/mattsta/icli)
+
+
+https://github.com/jackroc97/ib-async-trader/blob/main/src/ib_async_trader/brokers/ib_live_trade_broker.py 
