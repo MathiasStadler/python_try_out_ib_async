@@ -10,7 +10,7 @@ Debian 12.8
 
 
 ```bash
-python3 --version
+python3 --versionpython_try_out_ib_async
 Python 3.11.2
 ```
 
