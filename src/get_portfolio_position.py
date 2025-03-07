@@ -5,6 +5,7 @@ def get_all_position():
     # positions = ib.positions()
     positions = ib.reqPositions()
 
+    ib.qualifyContracts(positions)
 
     positions_data = []
     for position in positions:
