@@ -1,0 +1,5 @@
+   DEBUG | 2025-03-27T20:16:38Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-27T20:16:38Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-27T20:16:38Z | __main__ | async_first.py:                 <module> | Line# 54 | program call direct
+    INFO | 2025-03-27T20:16:38Z | __main__ | async_first.py:                 <module> | Line# 55 | start program
+    INFO | 2025-03-27T20:16:38Z | __main__ | async_first.py:                 <module> | Line# 57 | finished program
