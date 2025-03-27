@@ -36,14 +36,20 @@ def init_logger():
     return log
 
 
-HOST, PORT, CID = ('127.0.0.1', 7496, 38)
+HOST, PORT, CID = ('127.0.0.1', 7496, 31)
 
 
 def run():
     with IB().connect(HOST, PORT, CID) as ib:
         ib.reqMarketDataType(3)
-        print(type(ib.portfolio()))
-        print(ib.portfolio())
+        # print(type(ib.portfolio()))
+       #  print(ib.portfolio())
+        # con_list = util.df(ib.portfolio()).loc[:,'contract']
+        # con_list = util.df(ib.portfolio()).loc[:,'marketPrice']
+        #  contract  position  marketPrice  marketValue  averageCost  unrealizedPNL  realizedPNL    account
+        # df2=df.loc[(df['Discount'] >= 1200) | (df['Fee'] >= 23000 )]
+        con_list = util.df(ib.portfolio()).loc[:,'marketPrice','marketValue']
+        print(con_list)
 
 
 # main

@@ -3,3 +3,26 @@
    DEBUG | 2025-03-27T20:16:38Z | __main__ | async_first.py:                 <module> | Line# 54 | program call direct
     INFO | 2025-03-27T20:16:38Z | __main__ | async_first.py:                 <module> | Line# 55 | start program
     INFO | 2025-03-27T20:16:38Z | __main__ | async_first.py:                 <module> | Line# 57 | finished program
+   DEBUG | 2025-03-27T20:22:02Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-27T20:22:02Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-27T20:22:02Z | __main__ | async_first.py:                 <module> | Line# 56 | program call direct
+    INFO | 2025-03-27T20:22:02Z | __main__ | async_first.py:                 <module> | Line# 57 | start program
+    INFO | 2025-03-27T20:22:03Z | __main__ | async_first.py:                 <module> | Line# 59 | finished program
+   DEBUG | 2025-03-27T20:24:48Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-27T20:24:48Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-27T20:24:48Z | __main__ | async_first.py:                 <module> | Line# 58 | program call direct
+    INFO | 2025-03-27T20:24:48Z | __main__ | async_first.py:                 <module> | Line# 59 | start program
+    INFO | 2025-03-27T20:24:49Z | __main__ | async_first.py:                 <module> | Line# 61 | finished program
+   DEBUG | 2025-03-27T20:30:37Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-27T20:30:37Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-27T20:30:37Z | __main__ | async_first.py:                 <module> | Line# 60 | program call direct
+    INFO | 2025-03-27T20:30:37Z | __main__ | async_first.py:                 <module> | Line# 61 | start program
+   DEBUG | 2025-03-27T20:31:15Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-27T20:31:15Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-27T20:31:15Z | __main__ | async_first.py:                 <module> | Line# 60 | program call direct
+    INFO | 2025-03-27T20:31:15Z | __main__ | async_first.py:                 <module> | Line# 61 | start program
+    INFO | 2025-03-27T20:31:16Z | __main__ | async_first.py:                 <module> | Line# 63 | finished program
+   DEBUG | 2025-03-27T20:32:00Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-27T20:32:00Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-27T20:32:00Z | __main__ | async_first.py:                 <module> | Line# 60 | program call direct
+    INFO | 2025-03-27T20:32:00Z | __main__ | async_first.py:                 <module> | Line# 61 | start program
