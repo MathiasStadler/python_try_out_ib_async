@@ -36,7 +36,7 @@ def init_logger():
     return log
 
 
-HOST, PORT, CID = ('127.0.0.1', 7496, 31)
+HOST, PORT, CID = ('127.0.0.1', 7496, 10)
 
 
 def run():
@@ -48,8 +48,10 @@ def run():
         # con_list = util.df(ib.portfolio()).loc[:,'marketPrice']
         #  contract  position  marketPrice  marketValue  averageCost  unrealizedPNL  realizedPNL    account
         # df2=df.loc[(df['Discount'] >= 1200) | (df['Fee'] >= 23000 )]
-        con_list = util.df(ib.portfolio()).loc[:,'marketPrice','marketValue']
-        print(con_list)
+       # con_list = util.df(ib.portfolio()).loc[:,'marketPrice']
+        con_list = util.df(ib.portfolio())
+        con_list.index()
+        log.info(con_list)
 
 
 # main

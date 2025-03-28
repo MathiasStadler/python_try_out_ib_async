@@ -26,3 +26,70 @@
    DEBUG | 2025-03-27T20:32:00Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
    DEBUG | 2025-03-27T20:32:00Z | __main__ | async_first.py:                 <module> | Line# 60 | program call direct
     INFO | 2025-03-27T20:32:00Z | __main__ | async_first.py:                 <module> | Line# 61 | start program
+   DEBUG | 2025-03-28T14:40:13Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-28T14:40:13Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-28T14:40:13Z | __main__ | async_first.py:                 <module> | Line# 60 | program call direct
+    INFO | 2025-03-28T14:40:13Z | __main__ | async_first.py:                 <module> | Line# 61 | start program
+   DEBUG | 2025-03-28T14:40:45Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-28T14:40:45Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-28T14:40:45Z | __main__ | async_first.py:                 <module> | Line# 60 | program call direct
+    INFO | 2025-03-28T14:40:45Z | __main__ | async_first.py:                 <module> | Line# 61 | start program
+    INFO | 2025-03-28T14:40:45Z | __main__ | async_first.py:                 <module> | Line# 63 | finished program
+   DEBUG | 2025-03-28T14:41:13Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-28T14:41:13Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-28T14:41:13Z | __main__ | async_first.py:                 <module> | Line# 60 | program call direct
+    INFO | 2025-03-28T14:41:13Z | __main__ | async_first.py:                 <module> | Line# 61 | start program
+    INFO | 2025-03-28T14:41:14Z | __main__ | async_first.py:                      run | Line# 52 | 0     2.377721
+1     2.927541
+2     3.630416
+3     5.970659
+4     0.322212
+5     0.734751
+6     0.550000
+7     1.498902
+8     0.001817
+9     0.547141
+10    0.869681
+11    1.353306
+12    0.014419
+13    0.168064
+14    0.273567
+15    0.271462
+16    0.386372
+17    1.196300
+18    1.981297
+Name: marketPrice, dtype: float64
+    INFO | 2025-03-28T14:41:14Z | __main__ | async_first.py:                 <module> | Line# 63 | finished program
+   DEBUG | 2025-03-28T14:44:49Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-28T14:44:49Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-28T14:44:49Z | __main__ | async_first.py:                 <module> | Line# 61 | program call direct
+    INFO | 2025-03-28T14:44:49Z | __main__ | async_first.py:                 <module> | Line# 62 | start program
+   DEBUG | 2025-03-28T14:45:06Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-28T14:45:06Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-28T14:45:06Z | __main__ | async_first.py:                 <module> | Line# 61 | program call direct
+    INFO | 2025-03-28T14:45:06Z | __main__ | async_first.py:                 <module> | Line# 62 | start program
+    INFO | 2025-03-28T14:45:06Z | __main__ | async_first.py:                      run | Line# 53 |                                              contract  position  marketPrice  marketValue  averageCost  unrealizedPNL  realizedPNL    account
+0   Option(conId=760988597, symbol='ALB', lastTrad...       1.0     2.407206       240.72   265.056700         -24.34          0.0  DU5417029
+1   Option(conId=760988670, symbol='ALB', lastTrad...      -2.0     2.963036      -592.61   286.282600         -20.04          0.0  DU5417029
+2   Option(conId=755327744, symbol='BIDU', lastTra...       1.0     3.658671       365.87   283.636700          82.23          0.0  DU5417029
+3   Option(conId=755327783, symbol='BIDU', lastTra...      -2.0     6.030281     -1206.06   429.698600        -346.66          0.0  DU5417029
+4   Option(conId=722886411, symbol='CTSH', lastTra...       1.0     0.347451        34.75    61.056700         -26.31          0.0  DU5417029
+5   Option(conId=722886491, symbol='CTSH', lastTra...      -3.0     0.828774      -248.63    94.437933          34.68          0.0  DU5417029
+6   Option(conId=761035804, symbol='GOOG', lastTra...      -4.0     0.580000      -232.00   148.411425         361.65          0.0  DU5417029
+7   Option(conId=761035843, symbol='GOOG', lastTra...       2.0     1.560000       312.00   246.581650        -181.16          0.0  DU5417029
+8   Option(conId=759632068, symbol='INTC', lastTra...       2.0     0.001817         0.36     6.306650         -12.25          0.0  DU5417029
+9   Option(conId=759632438, symbol='INTC', lastTra...      -1.0     0.573657       -57.37    65.188700           7.82          0.0  DU5417029
+10  Option(conId=759651940, symbol='LI', lastTrade...      -2.0     0.895324      -179.06    79.598350         -19.87          0.0  DU5417029
+11  Option(conId=759652105, symbol='LI', lastTrade...       1.0     1.386602       138.66   113.746700          24.91          0.0  DU5417029
+12  Option(conId=764847965, symbol='PLTR', lastTra...      -1.0     0.020000        -2.00   129.936900         127.94          0.0  DU5417029
+13  Option(conId=764848210, symbol='PLTR', lastTra...       1.0     0.180000        18.00   273.056700        -255.06          0.0  DU5417029
+14  Option(conId=760004128, symbol='PLTR', lastTra...      -2.0     0.290000       -58.00   309.281950         560.56          0.0  DU5417029
+15  Option(conId=765324651, symbol='VST', lastTrad...      -2.0     0.206827       -41.37   314.671800         587.98          0.0  DU5417029
+16  Option(conId=765324677, symbol='VST', lastTrad...       1.0     0.299817        29.98   395.666700        -365.68          0.0  DU5417029
+17  Option(conId=763248394, symbol='WSM', lastTrad...      -2.0     1.215582      -243.12   510.026400         776.94          0.0  DU5417029
+18  Option(conId=763248479, symbol='WSM', lastTrad...       1.0     2.013303       201.33   760.306700        -558.98          0.0  DU5417029
+    INFO | 2025-03-28T14:45:06Z | __main__ | async_first.py:                 <module> | Line# 64 | finished program
+   DEBUG | 2025-03-28T14:46:14Z | __main__ | async_first.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-28T14:46:14Z | __main__ | async_first.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-28T14:46:14Z | __main__ | async_first.py:                 <module> | Line# 62 | program call direct
+    INFO | 2025-03-28T14:46:14Z | __main__ | async_first.py:                 <module> | Line# 63 | start program
