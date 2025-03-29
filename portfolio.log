@@ -616,3 +616,41 @@ Name: contract, dtype: object
     INFO | 2025-03-28T22:02:29Z | __main__ | async_ib_3.py:                      run | Line# 44 | RUN START
     INFO | 2025-03-28T22:02:29Z | __main__ | async_ib_3.py:                      run | Line# 91 | RUN EXIT
     INFO | 2025-03-28T22:02:29Z | __main__ | async_ib_3.py:                 <module> | Line# 105 | finished program
+   DEBUG | 2025-03-29T11:27:31Z | __main__ | async_ib_3.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-29T11:27:31Z | __main__ | async_ib_3.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-29T11:27:31Z | __main__ | async_ib_3.py:                 <module> | Line# 102 | program call direct
+    INFO | 2025-03-29T11:27:31Z | __main__ | async_ib_3.py:                 <module> | Line# 103 | start program
+    INFO | 2025-03-29T11:27:31Z | __main__ | async_ib_3.py:                      run | Line# 44 | RUN START
+    INFO | 2025-03-29T11:27:32Z | __main__ | async_ib_3.py:                      run | Line# 91 | RUN EXIT
+    INFO | 2025-03-29T11:27:32Z | __main__ | async_ib_3.py:                 <module> | Line# 105 | finished program
+   DEBUG | 2025-03-29T11:27:51Z | __main__ | async_ib_3.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-29T11:27:51Z | __main__ | async_ib_3.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-29T11:27:51Z | __main__ | async_ib_3.py:                 <module> | Line# 102 | program call direct
+    INFO | 2025-03-29T11:27:51Z | __main__ | async_ib_3.py:                 <module> | Line# 103 | start program
+    INFO | 2025-03-29T11:27:51Z | __main__ | async_ib_3.py:                      run | Line# 44 | RUN START
+    INFO | 2025-03-29T11:27:52Z | __main__ | async_ib_3.py:                      run | Line# 91 | RUN EXIT
+    INFO | 2025-03-29T11:27:52Z | __main__ | async_ib_3.py:                 <module> | Line# 105 | finished program
+   DEBUG | 2025-03-29T11:28:15Z | __main__ | async_ib_3.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-29T11:28:15Z | __main__ | async_ib_3.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-29T11:28:15Z | __main__ | async_ib_3.py:                 <module> | Line# 102 | program call direct
+    INFO | 2025-03-29T11:28:15Z | __main__ | async_ib_3.py:                 <module> | Line# 103 | start program
+    INFO | 2025-03-29T11:28:15Z | __main__ | async_ib_3.py:                      run | Line# 44 | RUN START
+    INFO | 2025-03-29T11:28:16Z | __main__ | async_ib_3.py:                      run | Line# 91 | RUN EXIT
+    INFO | 2025-03-29T11:28:16Z | __main__ | async_ib_3.py:                 <module> | Line# 105 | finished program
+   DEBUG | 2025-03-29T11:28:35Z | __main__ | async_ib_3.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-29T11:28:35Z | __main__ | async_ib_3.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-29T11:28:36Z | __main__ | async_ib_3.py:                 <module> | Line# 102 | program call direct
+    INFO | 2025-03-29T11:28:37Z | __main__ | async_ib_3.py:                 <module> | Line# 103 | start program
+    INFO | 2025-03-29T11:28:56Z | __main__ | async_ib_3.py:                      run | Line# 44 | RUN START
+   DEBUG | 2025-03-29T11:37:14Z | __main__ | async_ib_3.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-29T11:37:14Z | __main__ | async_ib_3.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-29T11:37:15Z | __main__ | async_ib_3.py:                 <module> | Line# 106 | program call direct
+    INFO | 2025-03-29T11:37:15Z | __main__ | async_ib_3.py:                 <module> | Line# 107 | start program
+    INFO | 2025-03-29T11:37:16Z | __main__ | async_ib_3.py:                      run | Line# 44 | RUN START
+   ERROR | 2025-03-29T11:37:17Z | __main__ | async_ib_3.py:                      run | Line# 97 | An error => 'str' object has no attribute 'includeExpired' occurred line:#67
+   DEBUG | 2025-03-29T11:37:29Z | __main__ | async_ib_3.py:              init_logger | Line# 34 | start
+   DEBUG | 2025-03-29T11:37:29Z | __main__ | async_ib_3.py:              init_logger | Line# 35 | finished
+   DEBUG | 2025-03-29T11:37:29Z | __main__ | async_ib_3.py:                 <module> | Line# 106 | program call direct
+    INFO | 2025-03-29T11:37:29Z | __main__ | async_ib_3.py:                 <module> | Line# 107 | start program
+    INFO | 2025-03-29T11:37:33Z | __main__ | async_ib_3.py:                      run | Line# 44 | RUN START
+   ERROR | 2025-03-29T11:37:57Z | __main__ | async_ib_3.py:                      run | Line# 97 | An error => 'str' object has no attribute 'includeExpired' occurred line:#67

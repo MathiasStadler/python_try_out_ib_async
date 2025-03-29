@@ -1,13 +1,10 @@
-# FROM HERE
-# https://github.com/erdewit/ib_insync/issues/303
+# this should here my async template /w logging ;-)
 
 from ib_async import *
 import logging
 import time
 
 # logger
-
-
 def init_logger():
 
     # Setup logger
@@ -35,7 +32,7 @@ def init_logger():
     log.debug("finished")
     return log
 
-
+# connect data for local running TWS
 HOST, PORT, CID = ('127.0.0.1', 7496, 10)
 
 
