@@ -5,6 +5,8 @@ import logging
 import time
 
 # logger
+
+
 def init_logger():
 
     # Setup logger
@@ -32,6 +34,7 @@ def init_logger():
     log.debug("finished")
     return log
 
+
 # connect data for local running TWS
 HOST, PORT, CID = ('127.0.0.1', 7496, 10)
 
@@ -42,53 +45,38 @@ def run():
     try:
         with IB().connect(HOST, PORT, CID) as ib:
             ib.reqMarketDataType(3)
-            # print(type(ib.portfolio()))
-        #  print(ib.portfolio())
-            # con_list = util.df(ib.portfolio()).loc[:,'contract']
-            # con_list = util.df(ib.portfolio()).loc[:,'marketPrice']
-            #  contract  position  marketPrice  marketValue  averageCost  unrealizedPNL  realizedPNL    account
-            # df2=df.loc[(df['Discount'] >= 1200) | (df['Fee'] >= 23000 )]
-        # con_list = util.df(ib.portfolio()).loc[:,'marketPrice']
-            
-            
+
             con_list = util.df(ib.portfolio())
-            
-           # print(" => {}".format("Test"))
-           # log.info("Type => {}").format( type(con_list))
-            
-            # get pandas Index
-            # log.info(con_list.columns)
-           #  log.info(con_list['contract'])
-            
+
             # get akt. market data for each contract
             ib.qualifyContracts(*con_list)
 
-            positions = con_list['contract']
+            # get all contract
+            # [position](https://www.investopedia.com/terms/p/position.asp)
+            # [contract](https://www.investopedia.com/terms/o/optionscontract.asp)
 
-           #  print (" => {position.__class__}")
-           # print("TYPE position => ".format(type(position)))
-           # log.info("position => {}".format(position ))
+            # we use here position for stocks and options ;-)
+            positions = con_list['contract']
+         
+            # log.info("position => {}".format(position ))
+
             for pos in positions:
                 # print("{}".format(pos))
 
-                
-                option=Option(pos)
+                option = Option(pos)
 
                 # print("Option => {}".format(option))
-                
+
                 print(" {} {} {} {}".format(
-                option.symbol,
-                option.strike,
-                option.lastTradeDateOrContractMonth,
-                option.primaryExchange,
+                    option.symbol,
+                    option.strike,
+                    option.lastTradeDateOrContractMonth,
+                    option.primaryExchange,
                 ))
-                
-
-
 
             # complete output
             # log.info(con_list.describe)
-            
+
             log.info("RUN EXIT")
     except Exception as e:
         log.error("An error => {} occurred line:#{}".format(

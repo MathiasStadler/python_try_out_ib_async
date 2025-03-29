@@ -41,7 +41,13 @@ deactivate
 touch async_hello_world.ipynb
 ```
 
-## follow the vid
+## [error: externally-managed-environment](https://stackoverflow.com/questions/75608323/how-do-i-solve-error-externally-managed-environment-every-time-i-use-pip-3)
+
+
+## [](https://stackoverflow.com/questions/75608323/how-do-i-solve-error-externally-managed-environment-every-time-i-use-pip-3)
+## [](https://veronneau.org/python-311-pip-and-breaking-system-packages.html)
+
+## follow the vid 
 
 ### [icli: IBKR live trade cli](https://github.com/mattsta/icli)
 
